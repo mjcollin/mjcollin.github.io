@@ -4,7 +4,15 @@ body {
 }
 
 .copyright {
-    color: #ffffff;
+    color: #7D7D7D;
+}
+
+.copyright a:link {
+    color: #7D7D7D;
+}
+
+.copyright a:visited {
+    color: #7D7D7D;
 }
 
 .footer {
