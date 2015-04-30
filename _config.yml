@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: Badmatt
-description: "What's good about it?"
+description: "Matthew J. Collins personal blog"
 
 # url is currently only used only for the RSS feed in feed.xml
 url: http://mjcollin.github.io
