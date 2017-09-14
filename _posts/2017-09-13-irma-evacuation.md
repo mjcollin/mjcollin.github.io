@@ -13,3 +13,11 @@ Video on Youtube:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u1P1jwD-Hts" frameborder="0" allowfullscreen></iframe>
 
+Some details about how this was made:
+
+ - The I75 cameras are movable with 4 pre-programmed positions. They take one picture per minute so there's one image about every 4 minutes. You'll also see some times when the camera didn't properly return to it's pre-programmed position.
+ - The orientation of the camera isn't saved in the image metadata (who would have thought that would be useful!) but it is displayed in the image. I OCR'ed the orientation from a crop in the image with pyocr and tesseract. It was pretty good but you'll see some stray images from other positions where the OCR messed up. I'm not a tesseract wizard.
+ - There are gaps in the images for a number of reasons. Sometimes the camera goes out. Sometimes the images are partial downloads since I'm pulling a jpg off a web server every minute and they're uploading to the same file name every minute. I get about 5% corrupt or partial files.
+ - The final image is just the last image uploaded off the camera before it died. It just happened to be in the right orientation so for the last 2 days I was pulling the same image of their web site. Its all a hack.
+ 
+ So far I have download ~40 cameras worth of data since February 2017 every minute for a total of about 750 GB and 16 million images. Not sure what else I'll do with them.
