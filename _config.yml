@@ -27,6 +27,6 @@ comments: false
 permalink: /:year/:month/:title
 paginate: 3
 
-highlighter: pygments
+highlighter: rouge
 
 exclude: ['README.md', 'LICENSE', 'CNAME', 'Gemfile', 'Gemfile.lock', 'serve.sh']
